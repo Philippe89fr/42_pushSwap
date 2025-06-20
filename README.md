@@ -10,7 +10,8 @@ Part of 42 Common Core.
 
 - **Programming Languages:** C
 - **Algorithm Design & Implementation:** Developing efficient sorting strategies 
-- **Data Structure Manipulation:** Working with stacks, implementing push, pop, rotate, and swap operations
+- **Instruction Management:** Provides a variety of stack manipulation instructions such as "push", "swap", "rotate", and "reverse rotate" to sort the stack according to specified rules.
+- **Sorting Verification:** Verifies if the stack is correctly sorted after executing sorting operations to ensure the accuracy of the algorithm.
 - **Memory Management:** Efficient allocation and deallocation of stack structures
 - **Input Validation:** Parsing and validating integer arguments, handling duplicates and errors
 - **Edge Case Handling:** Managing various input sizes and data arrangements
@@ -23,4 +24,5 @@ git clone git@github.com:Philippe89fr/42_pushSwap.git
 2. Run the following command:
 ```bash
 make
+./push_swap 243 55 33 2 -32 4 //or any list of numbers
 ```
